@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoJoinville - Coleta Seletiva Inteligente</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-icon">🌱</div>
+                    <h1>EcoJoinville</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#objetivos">Objetivos</a></li>
+                        <li><a href="#impacto">Impacto</a></li>
+                        <li><a href="#acoes">Ações</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="container">
+                <h2>Joinville Sustentável</h2>
+                <p>Transformando nossa cidade através da gestão eficiente de resíduos e consumo consciente</p>
+                <div class="hero-image">
+                    ♻️
+                </div>
+            </div>
+        </section>
+
+        <section id="objetivos" class="objetivos">
+            <div class="container">
+                <h2 class="section-title">Objetivos do Projeto</h2>
+                <p class="section-subtitle">
+                    Nossa plataforma digital visa promover a visualização, mapeamento e monitoramento das ações de coleta seletiva em Joinville, 
+                    contribuindo diretamente para os Objetivos de Desenvolvimento Sustentável (ODS) 11 e 12 da ONU.
+                </p>
+                <div class="cards-grid">
+                    <div class="card">
+                        <h3>ODS 11 - Cidades Sustentáveis</h3>
+                        <p>Promover cidades e comunidades mais sustentáveis através de práticas eficientes de gestão de resíduos urbanos.</p>
+                    </div>
+                    <div class="card">
+                        <h3>ODS 12 - Consumo Responsável</h3>
+                        <p>Fomentar padrões de consumo e produção sustentáveis, reduzindo o desperdício e promovendo a reciclagem.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Monitoramento Inteligente</h3>
+                        <p>Plataforma digital para acompanhar em tempo real as ações de coleta seletiva na cidade.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="impacto" class="impacto">
+            <div class="container">
+                <h2 class="section-title">Impacto na Comunidade</h2>
+                <p class="section-subtitle">Entenda como suas ações individuais podem transformar nossa cidade</p>
+                
+                <div class="cards-grid">
+                    <div class="card">
+                        <h3>🔄 Ciclo da Reciclagem</h3>
+                        <p>Coleta → Separação → Processamento → Transformação → Novo Produto. Cada material reciclado volta ao ciclo produtivo, economizando recursos naturais e energia.</p>
+                    </div>
+                    <div class="card">
+                        <h3>🌍 Sua Ação Transforma</h3>
+                        <p>Separar corretamente os resíduos em casa multiplica o impacto positivo. Uma família pode desviar até 40% dos resíduos do aterro sanitário.</p>
+                    </div>
+                    <div class="card">
+                        <h3>⚠️ Má Gestão de Resíduos</h3>
+                        <p>Poluição do solo e água, proliferação de doenças, emissão de gases poluentes e desperdício de recursos naturais valiosos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="acoes" class="acoes">
+            <div class="container">
+                <h2 class="section-title">Como Participar</h2>
+                <p class="section-subtitle">Faça parte da mudança! Veja como você pode contribuir:</p>
+                
+                <div class="action-list">
+                    <div class="action-item">
+                        <h4>🤝 Doe seus Recicláveis</h4>
+                        <p>Entregue seus materiais recicláveis para cooperativas locais e fortaleça a economia circular.</p>
+                    </div>
+                    <div class="action-item">
+                        <h4>🎯 Participe de Campanhas</h4>
+                        <p>Junte-se aos eventos e campanhas educativas promovidas pela prefeitura.</p>
+                    </div>
+                    <div class="action-item">
+                        <h4>🌟 Seja um Parceiro</h4>
+                        <p>Cadastre seu estabelecimento como ponto de coleta e amplie nossa rede sustentável.</p>
+                    </div>
+                </div>
+
+                <div class="form-container">
+                    <h3 style="text-align: center; color: #27AE60; margin-bottom: 30px;">Cadastre-se como Parceiro</h3>
+                    <form id="partnerForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="nomeParceiro">Nome do Parceiro*</label>
+                                <input type="text" id="nomeParceiro" name="nomeParceiro" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="tipoParceiro">Tipo do Parceiro*</label>
+                                <select id="tipoParceiro" name="tipoParceiro" required>
+                                    <option value="">Selecione uma opção</option>
+                                    <option value="ECO">Ecopontos</option>
+                                    <option value="COO">Cooperativas</option>
+                                    <option value="PEV">Ponto de Entrega Voluntária</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="responsavelParceiro">Responsável pelo Parceiro*</label>
+                                <input type="text" id="responsavelParceiro" name="responsavelParceiro" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="telResponsavel">Telefone do Responsável*</label>
+                                <input type="tel" id="telResponsavel" name="telResponsavel" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="emailResponsavel">E-mail do Responsável*</label>
+                            <input type="email" id="emailResponsavel" name="emailResponsavel" required>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="rua">Rua*</label>
+                                <input type="text" id="rua" name="rua" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="numero">Número*</label>
+                                <input type="number" id="numero" name="numero" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="bairro">Bairro*</label>
+                            <input type="text" id="bairro" name="bairro" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Tipos de Resíduos Aceitos*</label>
+                            <div class="checkbox-group">
+                                <div class="checkbox-item"><input type="checkbox" id="papel" name="papel"><label for="papel">Papel</label></div>
+                                <div class="checkbox-item"><input type="checkbox" id="plastico" name="plastico"><label for="plastico">Plástico</label></div>
+                                <div class="checkbox-item"><input type="checkbox" id="vidro" name="vidro"><label for="vidro">Vidro</label></div>
+                                <div class="checkbox-item"><input type="checkbox" id="metal" name="metal"><label for="metal">Metal</label></div>
+                                <div class="checkbox-item"><input type="checkbox" id="oleoCozinha" name="oleoCozinha"><label for="oleoCozinha">Óleo de Cozinha</label></div>
+                                <div class="checkbox-item"><input type="checkbox" id="pilhaBateria" name="pilhaBateria"><label for="pilhaBateria">Pilhas e Baterias</label></div>
+                                <div class="checkbox-item"><input type="checkbox" id="eletronico" name="eletronico"><label for="eletronico">Eletrônicos</label></div>
+                                <div class="checkbox-item"><input type="checkbox" id="roupa" name="roupa"><label for="roupa">Roupas</label></div>
+                                <div class="checkbox-item"><input type="checkbox" id="outros" name="outros"><label for="outros">Outros</label></div>
+                            </div>
+                        </div>
+                        <button type="submit" class="submit-btn">Enviar Cadastro</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Participantes do Projeto</h4>
+                <p>Squad EcoJoinville</p>
+                <p>Desenvolvido no Módulo 2</p>
+            </div>
+            <div class="footer-section">
+                <h4>Links Úteis</h4>
+                <p><a href="https://sdgs.un.org/goals" target="_blank">Objetivos de Desenvolvimento Sustentável - ONU</a></p>
+                <p><a href="admin/login.html">Acesso Administrativo</a></p>
+            </div>
+            <div class="footer-section">
+                <h4>Contato</h4>
+                <p>contato@ecojoinville.com.br</p>
+                <p>(47) 3433-0000</p>
+            </div>
+        </div>
+        <div class="logos">
+            <div class="logo-item">
+                <a href="https://www.joinville.sc.gov.br/" target="_blank" title="Prefeitura de Joinville">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5wrZPSmBjWtm8EcTKX6_MB3dfg3AmMlmp2Q&s" alt="Logo Prefeitura de Joinville">
+                </a>
+            </div>
+            <div class="logo-item">
+                <a href="https://lab365.tech/" target="_blank" title="Lab365">
+                    <img src="https://lab365.tech/wp-content/uploads/sites/5/2024/08/LAB-365.png" alt="Logo Lab365">
+                </a>
+            </div>
+            <div class="logo-item">
+                <a href="https://sc.senai.br/" target="_blank" title="SENAI SC">
+                    <img src="https://sc.senai.br/sites/default/files/styles/cke_media_resize_small/public/2025-01/marca_senai.png" alt="Logo SENAI">
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <div id="cookie-banner" class="cookie-banner">
+        <p>Nós utilizamos cookies para melhorar sua experiência de navegação. Ao continuar, você concorda com nossa <a href="#">Política de Cookies</a>.</p>
+        <button id="accept-cookies-btn" class="cookie-accept-btn">Aceitar e fechar</button>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

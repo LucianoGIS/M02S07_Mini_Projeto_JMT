@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listagem de Parceiros - EcoJoinville Admin</title>
+    <link rel="stylesheet" href="../css/admin-style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header-content">
+            <div class="logo">
+                <div class="logo-icon">🌱</div>
+                <h1>EcoJoinville Admin</h1>
+            </div>
+            <div class="user-info">
+                <div class="user-avatar">👤</div>
+                <span id="userEmail"></span>
+                <button class="logout-btn" onclick="logout()">Sair</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="search-section">
+            <div class="search-form">
+                <input type="text" class="search-input" id="searchInput" placeholder="Buscar por nome ou bairro...">
+                <button class="search-btn" onclick="searchPartners()">Pesquisar</button>
+                <button class="clear-btn" onclick="clearSearch()">Limpar</button>
+            </div>
+        </div>
+        <div class="partners-section">
+            <h2 class="partners-title">Parceiros Cadastrados</h2>
+            <div id="partnersContainer">
+                <div class="loading">
+                    <div class="loading-spinner"></div>
+                    <p>Carregando parceiros...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="../js/listagem.js"></script>
+</body>
+</html>
